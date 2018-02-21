@@ -1,0 +1,5 @@
+const element = document.createElement("link")
+element.setAttribute("href","http://localhost:3000/file.css")
+element.setAttribute("rel","stylesheet")
+element.setAttribute("type","text/css")
+document.body.appendChild(element)
